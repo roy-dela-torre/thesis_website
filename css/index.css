@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20px;
+    width: 80%;
+}
+.main .sidebar{
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+}
+.main .sidebar a{
+    list-style: none;
+    padding: 20px;
+    display: block;
+    width: 100%;
+    margin: 2px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.banner{
+    margin-bottom: 50px;
+    width: 100%;
+}
+.banner img,p{
+    display: inline;
+}
+.banner p{
+    color: #0FA956;
+    font-weight: bold;
+    font-size: 30px;
+}
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Style the active class, and buttons on mouse-over */
+  .active, .btn:hover {
+    background-color: #0FA956;
+  }
+
+.main .right{
+    padding:30px;
+    position: relative;
+    float: right;
+    width: 75%;
+}
+table #deliveries{
+    display: none;
+}
